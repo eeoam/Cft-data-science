@@ -1,0 +1,14 @@
+[project]
+name = "cft-data-science"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.3.4",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
